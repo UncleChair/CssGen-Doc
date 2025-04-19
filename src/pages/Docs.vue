@@ -4,6 +4,7 @@
     fluid
   >
     <iframe
+      ref="iframe"
       class="docs-iframe"
       frameborder="0"
       src="/docs/index.html"
@@ -13,10 +14,24 @@
 </template>
 
 <script setup>
+  import { ref, watch } from 'vue'
+  import { useRoute } from 'vue-router'
+
+  const route = useRoute()
+  const iframe = ref(null)
+
   const onIframeLoad = () => {
     // 可以在这里添加 iframe 加载完成后的处理逻辑
     console.log('文档 iframe 加载完成')
   }
+
+  // 监听路由变化，更新 iframe 内容
+  watch(() => route.path, newPath => {
+    if (newPath.startsWith('/docs') && iframe.value) {
+      const docsPath = newPath.replace('/docs', '')
+      iframe.value.contentWindow.location.hash = docsPath
+    }
+  })
 </script>
 
 <style scoped>
