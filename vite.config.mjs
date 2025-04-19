@@ -4,6 +4,7 @@ import Vue from '@vitejs/plugin-vue'
 import Vuetify, { transformAssetUrls } from 'vite-plugin-vuetify'
 import ViteFonts from 'unplugin-fonts/vite'
 import VueRouter from 'unplugin-vue-router/vite'
+import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 // Utilities
 import { defineConfig } from 'vite'
@@ -32,6 +33,15 @@ export default defineConfig({
           styles: 'wght@100;300;400;500;700;900',
         }],
       },
+    }),
+    viteStaticCopy({
+      targets: [
+        {
+          src: 'docs/*',
+          dest: 'docs',
+          flatten: false,
+        },
+      ],
     }),
   ],
   optimizeDeps: {
