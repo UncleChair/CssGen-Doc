@@ -1,13 +1,15 @@
 ---
-id: style-guide
-title: 样式指南
-description: CSS样式组件完整指南
-order: 5
+id: component-guide
+title: 组件指南
+description: 基础组件与高级组件完整指南
+order: 2
+previous: attribute-component
+next: border-styles
 ---
 
 # CSS 样式指南
 
-这个章节包含了 CSSGen 提供的所有样式组件的详细说明。
+本章节包含了 CSSGen 编辑器提供的所有样式组件的详细说明。
 
 ## 样式类别
 
@@ -31,16 +33,12 @@ CSSGen 将样式组件分为以下几个主要类别：
 
 1. **功能介绍** - 组件的主要功能和特性
 2. **使用方法** - 如何在代码中使用组件
-3. **Props 文档** - 组件接受的属性说明
 4. **交互式演示** - 实时调整参数并查看效果
 5. **最佳实践** - 使用建议和技巧
 
 ## 快速导航
 
-- [文本样式](./text-styles.md) - 文本颜色、字体、阴影等
-- [背景样式](./background-styles.md) - 背景颜色、图片、渐变等
-- [边框样式](./border-styles.md) - 边框、圆角、阴影等
-- [布局样式](./layout-styles.md) - Flexbox、显示模式、溢出等
+- [边框样式](./border-styles) - 边框、圆角、阴影等
 
 ---
 

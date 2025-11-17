@@ -3,6 +3,7 @@ id: introduction
 title: 介绍
 description: CSSGen 文档系统简介和快速入门指南
 order: 0
+next: style-guide
 ---
 
 # CSSGen 文档介绍
