@@ -29,6 +29,7 @@ CSSGen 使用基于 Markdown 的文档系统，支持：
 - ✅ 交互式组件演示
 - ✅ 自动生成文档导航树
 - ✅ Front Matter 元数据管理
+- ✅ 文档翻页导航（上一页/下一页）
 
 文档系统会自动扫描 `public/docs/{locale}/` 目录下的所有 `.md` 文件，并根据 Front Matter 中的元数据自动生成文档列表和导航。
 
@@ -68,6 +69,8 @@ title: 文本样式              # 必需：文档标题
 description: 文本样式组件提供了全面的文字外观控制能力  # 可选：文档描述
 order: 10                    # 可选：排序顺序（数字越小越靠前，默认为 999）
 parent: style-guide          # 可选：父文档 ID（用于构建文档树）
+previous: introduction       # 可选：上一页文档 ID（用于翻页导航）
+next: border-styles          # 可选：下一页文档 ID（用于翻页导航）
 demos:                       # 可选：组件演示配置
   - key: text-color
     title: 文本颜色示例
@@ -83,9 +86,11 @@ demos:                       # 可选：组件演示配置
 |------|------|------|------|
 | `id` | string | ✅ | 文档的唯一标识符，用于路由和引用 |
 | `title` | string | ✅ | 文档标题，显示在导航和页面中 |
-| `description` | string | ❌ | 文档描述，用于 SEO 和预览 |
+| `description` | string | ❌ | 文档描述，显示在翻页按钮中 |
 | `order` | number | ❌ | 排序顺序，数字越小越靠前（默认 0） |
 | `parent` | string | ❌ | 父文档的 ID，用于构建文档树结构 |
+| `previous` | string | ❌ | 上一页文档的 ID，用于翻页导航 |
+| `next` | string | ❌ | 下一页文档的 ID，用于翻页导航 |
 | `demos` | array | ❌ | 组件演示配置数组（见下方说明） |
 
 #### Demos 配置
@@ -328,6 +333,7 @@ public/docs/
    - 每个文档应该专注于一个主题
    - 使用 `parent` 字段构建文档树结构
    - 合理使用 `order` 字段控制文档顺序
+   - 使用 `previous` 和 `next` 字段创建文档阅读顺序，翻页按钮会自动显示在文档底部
 
 3. **组件演示**
    - 为每个重要的功能提供交互式演示
@@ -378,6 +384,25 @@ title: 文本样式
 parent: style-guide  # 父文档的 id
 ---
 ```
+
+### Q: 如何添加翻页导航？
+
+**A:** 在 Front Matter 中使用 `previous` 和 `next` 字段指定相邻文档：
+
+```yaml
+---
+id: style-guide
+title: 样式指南
+previous: introduction  # 上一页文档的 id
+next: border-styles     # 下一页文档的 id
+---
+```
+
+**说明：**
+- 如果文档存在 `previous` 或 `next` 字段，翻页按钮会自动显示在文档底部
+- 翻页按钮会显示相邻文档的标题和描述（如果有）
+- 可以只设置 `previous` 或只设置 `next`，也可以两者都设置
+- 如果相邻文档不存在或未找到，对应的翻页按钮不会显示
 
 ---
 
