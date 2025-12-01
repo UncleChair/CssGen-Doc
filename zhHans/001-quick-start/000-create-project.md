@@ -11,7 +11,7 @@ previous: quick-start
 
 所有项目的入口位于您个人信息的<a href="/projects" target="_blank">项目列表</a>页面内。
 
-![项目列表页面](./001-quick-start/static/project-entry.png)
+![项目列表页面](./static/project-entry.png)
 
 项目是您所有样式配置的容器，每个项目都对应一个特定直播平台的特定弹幕软件。CSSGen 提供了两种创建项目的方式，您可以根据实际需求选择：
 
@@ -19,7 +19,7 @@ previous: quick-start
 
 点击项目列表中的 ➕ 按钮打开创建面板。
 
-![创建面板](./001-quick-start/static/create-project-pannel.png)
+![创建面板](./static/create-project-pannel.png)
 
 ### 1. 新建项目
 
@@ -47,7 +47,7 @@ previous: quick-start
     - 选择项目对应的直播平台和弹幕软件
     - 不同平台的 DOM 结构不同，选择后无法更改
 
-![新项目面板](./001-quick-start/static/new-project-pannel.png)
+![新项目面板](./static/new-project-pannel.png)
 
 ### 平台支持
 
