@@ -1,6 +1,11 @@
 # CSSGen 文档系统开发指南
 
-_文档系统为 CSSGen 项目的子项目，无法独立部署_
+<p align="center">
+  <a href="./README_en.md"><img alt="README in English" src="https://img.shields.io/badge/English-DBEDFA"></a>
+  <a href="./README.md"><img alt="简体中文版自述文件" src="https://img.shields.io/badge/简体中文-DFE0E5"></a>
+</p>
+
+_文档系统为 CSSGen 项目的子项目，不支持独立部署_
 
 本文档主要说明如何编写文档文件和添加组件。
 
@@ -146,12 +151,6 @@ Front Matter 之后是标准的 Markdown 内容：
 - 支持 RGB、HEX、RGBA 格式
 - 实时颜色预览
 - 透明度控制
-
-### 使用方法
-
-\```vue
-<TextColor selector=".my-element" />
-\```
 ```
 
 **支持的 Markdown 特性：**
