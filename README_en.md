@@ -48,14 +48,14 @@ Documentation files should be placed in the following directory structure:
 
 ```
 public/docs/
-├── en/              # 英文文档
+├── en/              # English documents
 │   ├── introduction.md
 │   └── ...
-├── zhHans/          # 简体中文文档
+├── zhHans/          # Simplified Chinese documents
 │   ├── introduction.md
 │   ├── text-styles.md
 │   └── ...
-└── README.md        # 本文档
+└── README.md        # This document
 ```
 
 **Naming Conventions:**
@@ -336,7 +336,7 @@ public/docs/
 
 ### Q: Document not displayed in navigation?
 
-**A:** Check the following几点：
+**A:** Check the following points:
 
 1. Confirm that the document file is in the correct language directory
 2. Confirm that the `id` and `title` fields are required in Front Matter
