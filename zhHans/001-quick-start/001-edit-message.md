@@ -1,10 +1,11 @@
 ---
 id: edit-style
-title: 编辑样式
+title: 配置样式
 description: 选中消息并进行简单的样式编辑
 order: 1
 parent: quick-start
 previous: create-project
+next: manage-data
 demos:
   - key: message-type-selector
     component: MessageTypeSelectorDemo
@@ -125,4 +126,4 @@ _您也可以尝试更改更多的选项来获得不同的效果。_
 
 现在您已经完成了一个简单的样式编辑，您也可以返回之前的步骤更改更多的选项以尝试编辑器的功能，也可以前往[组件指南](./component-guide)了解每个组件的使用方法。
 
-接下来让我们了解一下如何将样式导出并使用。
+接下来让我们了解一下如何管理样式并将其导出使用。
