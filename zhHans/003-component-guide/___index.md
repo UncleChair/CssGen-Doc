@@ -2,7 +2,7 @@
 id: component-guide
 title: 组件指南
 description: 基础组件与高级组件完整指南
-order: 2
+order: 3
 previous: attribute-component
 next: border-styles
 ---
