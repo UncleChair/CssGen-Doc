@@ -10,15 +10,23 @@ demos:
     component: MessageTypeSelectorDemo
   - key: hide-timestamp
     component: HideTimestampDemo
+    props:
+      tag: #timestamp
   - key: text-element
     title: 通用设置 - 内容信息
     component: TextElementDemo
+    props:
+      tag: #image-and-message
   - key: font-editor
     title: 高级设置 - 文字基本设置
     component: FontEditorDemo
+    props:
+      tag: #image-and-message
   - key: display-editor
     title: 高级设置 - 显示与排版
     component: DisplayEditorDemo
+    props:
+      tag: yt-live-chat-author-chip
 ---
 
 # 编辑消息
