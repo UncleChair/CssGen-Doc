@@ -3,7 +3,6 @@ id: page-guide
 title: 界面指南
 description: 了解编辑器界面布局和功能
 order: 1
-previous: quick-start
 demos:
   - key: message-type-selector
     component: MessageTypeSelectorDemo
