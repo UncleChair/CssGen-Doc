@@ -20,7 +20,7 @@ demos:
 
 <!-- demo:message-type-selector -->
 
-这里我们以 `BliveChat` 的只熊修改版为例，调整 `文字消息` 的 `统一样式`。
+您可以在下方尝试不同选项的效果。
 
 <!-- demo:layout-demo -->
 
