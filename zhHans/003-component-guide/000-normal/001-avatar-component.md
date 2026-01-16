@@ -5,7 +5,7 @@ description: 调整用户头像与头像边框
 order: 0
 parent: normal-component
 previous: layout-component
-next: border-component
+next: basic-component
 demos:
   - key: message-type-selector
     component: MessageTypeSelector
