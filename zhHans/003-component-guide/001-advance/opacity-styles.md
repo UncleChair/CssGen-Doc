@@ -3,7 +3,7 @@ id: opacity-styles
 title: 不透明度样式
 description: 定制不透明度样式
 parent: advance-component
-previous: height-styles
+previous: width-styles
 order: 5
 demos:
   - key: opacity-editor

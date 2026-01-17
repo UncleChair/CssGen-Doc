@@ -4,6 +4,7 @@ title: 宽度样式
 description: 定制宽度样式
 parent: advance-component
 previous: height-styles
+next: opacity-styles
 order: 4
 demos:
   - key: width-editor
