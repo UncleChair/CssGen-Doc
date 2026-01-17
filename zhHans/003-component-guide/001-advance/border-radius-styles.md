@@ -4,6 +4,7 @@ title: 圆角样式
 description: 定制圆角样式
 parent: advance-component
 previous: opacity-styles
+next: font-styles
 order: 6
 demos:
   - key: border-radius-editor
