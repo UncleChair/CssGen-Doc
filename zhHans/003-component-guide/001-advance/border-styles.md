@@ -10,13 +10,11 @@ demos:
     title: 边框示例
     component: BorderEditor
     sticky: true
-    props:
-      selector: .demo-border-editor
 ---
 
 # 边框样式组件
 
-边框样式组件提供了完整的边框定制能力。
+_边框为图层周围的边框区域，包含基础线条边框和图片边框两种类型。_
 
 <!-- demo:border-editor -->
 
