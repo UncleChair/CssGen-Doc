@@ -4,6 +4,7 @@ title: 不透明度样式
 description: 定制不透明度样式
 parent: advance-component
 previous: width-styles
+next: border-radius-styles
 order: 5
 demos:
   - key: opacity-editor
