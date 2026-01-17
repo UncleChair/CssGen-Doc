@@ -4,6 +4,7 @@ title: 边框样式
 description: 定制边框样式
 parent: advance-component
 previous: advance-component
+next: padding-styles
 order: 0
 demos:
   - key: border-editor

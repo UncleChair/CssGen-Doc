@@ -3,7 +3,8 @@ id: margin-styles
 title: 外边距样式
 description: 定制外边距样式
 parent: advance-component
-previous: border-styles
+previous: padding-styles
+next: height-styles
 order: 2
 demos:
   - key: margin-editor

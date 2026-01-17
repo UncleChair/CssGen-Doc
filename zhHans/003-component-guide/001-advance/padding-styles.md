@@ -4,6 +4,7 @@ title: 内边距样式
 description: 定制内边距样式
 parent: advance-component
 previous: border-styles
+next: margin-styles
 order: 1
 demos:
   - key: padding-editor
