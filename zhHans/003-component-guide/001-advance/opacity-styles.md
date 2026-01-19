@@ -1,7 +1,7 @@
 ---
 id: opacity-styles
 title: 不透明度样式
-description: 定制不透明度样式
+description: 调整图层的不透明度
 parent: advance-component
 previous: width-styles
 next: border-radius-styles
@@ -14,7 +14,7 @@ demos:
 
 # 不透明度样式组件
 
-_不透明度指的是图层的整体不透明度。_
+_调整图层的不透明程度。_
 
 <!-- demo:opacity-editor -->
 

@@ -1,7 +1,7 @@
 ---
 id: height-styles
 title: 高度样式
-description: 定制高度样式
+description: 设置图层内容区域的高度
 parent: advance-component
 previous: margin-styles
 next: width-styles
@@ -15,7 +15,7 @@ demos:
 
 # 高度样式组件
 
-_高度指的是图层显示内容区域的高度。_
+_高度指的是图层显示内容区域的高度，用于控制图层内容区域的垂直方向大小。_
 
 <!-- demo:height-editor -->
 

@@ -1,7 +1,7 @@
 ---
 id: font-styles
 title: 文字基本设置样式
-description: 定制文字基本设置样式
+description: 修改文字相关样式效果
 parent: advance-component
 previous: border-radius-styles
 next: background-styles
@@ -17,7 +17,7 @@ demos:
 
 # 文字基本设置样式组件
 
-_文字基本设置包含图层的文字属性等信息。_
+_设置文字的字体、大小、颜色、粗细等外观样式，让文字更美观易读。_
 
 <!-- demo:font-editor-simple-demo -->
 

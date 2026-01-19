@@ -1,7 +1,7 @@
 ---
 id: border-radius-styles
 title: 圆角样式
-description: 定制圆角样式
+description: 设置图层四个角的弧度大小
 parent: advance-component
 previous: opacity-styles
 next: font-styles
@@ -14,7 +14,7 @@ demos:
 
 # 边框圆角样式组件
 
-_边框圆角指的是图层的边框圆角大小。_
+_为图层的四个角添加圆角效果。_
 
 <!-- demo:border-radius-editor -->
 

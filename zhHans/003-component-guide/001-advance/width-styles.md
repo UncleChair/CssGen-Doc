@@ -1,7 +1,7 @@
 ---
 id: width-styles
 title: 宽度样式
-description: 定制宽度样式
+description: 设置图层内容区域的宽度
 parent: advance-component
 previous: height-styles
 next: opacity-styles
@@ -15,7 +15,7 @@ demos:
 
 # 宽度样式组件
 
-_宽度指的是图层显示内容区域的宽度。_
+_设置图层显示内容区域的宽度，用于控制图层内容区域的水平方向大小。_
 
 <!-- demo:width-editor -->
 

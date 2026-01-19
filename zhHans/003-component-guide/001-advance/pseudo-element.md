@@ -1,7 +1,7 @@
 ---
 id: pseudo-element
 title: 前/后置附加图层
-description: 添加额外图层
+description: 添加额外装饰图层
 parent: advance-component
 previous: custom-styles
 order: 14
@@ -16,6 +16,6 @@ demos:
 
 # 前/后置附加图层
 
-_附加图层组件能够添加额外的图层，通常用于添加装饰性元素或内容。_
+_在图层前面或后面添加额外的装饰层，用于实现特殊的装饰效果。_
 
 <!-- demo:pseudo-element-editor -->

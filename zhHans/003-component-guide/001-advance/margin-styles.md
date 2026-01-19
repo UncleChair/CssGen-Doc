@@ -1,7 +1,7 @@
 ---
 id: margin-styles
 title: 外边距样式
-description: 定制外边距样式
+description: 设置图层间距
 parent: advance-component
 previous: padding-styles
 next: height-styles

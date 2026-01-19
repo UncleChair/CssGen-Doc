@@ -1,7 +1,7 @@
 ---
 id: padding-styles
 title: 内边距样式
-description: 定制内边距样式
+description: 设置图层边框和显示内容的间距
 parent: advance-component
 previous: border-styles
 next: margin-styles

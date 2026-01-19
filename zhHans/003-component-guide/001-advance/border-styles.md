@@ -1,7 +1,7 @@
 ---
 id: border-styles
 title: 边框样式
-description: 定制边框样式
+description: 添加线条或图片边框
 parent: advance-component
 previous: advance-component
 next: padding-styles
@@ -15,7 +15,7 @@ demos:
 
 # 边框样式组件
 
-_边框为图层周围的边框区域，包含基础线条边框和图片边框两种类型。_
+_在图层四周添加线条或图片装饰。_
 
 <!-- demo:border-editor -->
 

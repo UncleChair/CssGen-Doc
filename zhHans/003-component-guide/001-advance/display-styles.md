@@ -1,7 +1,7 @@
 ---
 id: display-styles
 title: 显示与排版样式
-description: 定制显示与排版样式
+description: 调整图层的显示与排列方式
 parent: advance-component
 previous: position-styles
 next: shadow-styles
@@ -17,6 +17,6 @@ demos:
 
 # 显示与排版样式组件
 
-_显示与排版用以控制图层的显示和布局方式。_
+_控制图层如何显示在页面上，以及如何排列组织它们的位置。_
 
 <!-- demo:display-editor -->

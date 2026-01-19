@@ -1,7 +1,7 @@
 ---
 id: custom-styles
 title: 自定义代码
-description: 添加自定义 CSS 代码
+description: 添加任何高级写法
 parent: advance-component
 previous: transform-styles
 next: pseudo-element

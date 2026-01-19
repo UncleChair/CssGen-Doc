@@ -1,7 +1,7 @@
 ---
 id: transform-styles
 title: 变形样式
-description: 定制变形样式
+description: 对图层进行变形操作
 parent: advance-component
 previous: shadow-styles
 next: custom-styles
@@ -17,6 +17,6 @@ demos:
 
 # 变形样式组件
 
-_变形组件能够为图层添加变形效果。_
+_对图层进行旋转、缩放、移动或倾斜等变形操作，创造动态效果。_
 
 <!-- demo:transform-editor -->

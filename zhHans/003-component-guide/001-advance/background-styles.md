@@ -1,7 +1,7 @@
 ---
 id: background-styles
 title: 背景样式
-description: 定制背景样式
+description: 设置背景颜色或装饰图片
 parent: advance-component
 previous: font-styles
 next: position-styles
@@ -17,7 +17,7 @@ demos:
 
 # 背景样式组件
 
-_背景为图层的背景区域，包含背景颜色和背景图片。_
+_为图层填充颜色或添加装饰图片，让图层更加美观。_
 
 <!-- demo:background-editor -->
 
