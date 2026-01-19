@@ -3,7 +3,9 @@ id: custom-styles
 title: 自定义代码
 description: 添加自定义 CSS 代码
 parent: advance-component
-order: 99
+previous: transform-styles
+next: pseudo-element
+order: 13
 demos:
   - key: custom-styles-demo
     title: 自定义代码示例

@@ -4,6 +4,7 @@ title: 文字基本设置样式
 description: 定制文字基本设置样式
 parent: advance-component
 previous: border-radius-styles
+next: background-styles
 order: 7
 demos:
   - key: font-editor-simple-demo
