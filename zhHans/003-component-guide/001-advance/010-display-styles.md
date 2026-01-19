@@ -7,9 +7,9 @@ previous: position-styles
 next: shadow-styles
 order: 10
 demos:
-  - key: display-editor
+  - key: display-editor-simple
     title: 显示与排版示例
-    component: DisplayEditor
+    component: DisplayEditorSimple
     sticky: true
     props:
       unique: true
@@ -19,4 +19,4 @@ demos:
 
 _控制图层如何显示在页面上，以及如何排列组织它们的位置。_
 
-<!-- demo:display-editor -->
+<!-- demo:display-editor-simple -->
