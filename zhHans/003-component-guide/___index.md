@@ -7,7 +7,7 @@ previous: attribute-component
 next: normal-component
 ---
 
-# CSS 样式指南
+# CSS 样式组件指南
 
 本章节包含了 CSSGen 编辑器提供的所有样式组件的详细说明。
 
