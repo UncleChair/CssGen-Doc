@@ -46,7 +46,7 @@ next: edit-style
     - 有助于后续管理和识别
 - **平台选择**（必选）
     - 选择项目对应的直播平台和弹幕软件
-    - 不同平台的 DOM 结构不同，选择后无法更改
+    - 不同平台的消息结构不同，选择后无法更改
 
 ![新项目面板](./static/new-project-pannel.png)
 
@@ -55,7 +55,7 @@ next: edit-style
 新建项目时，您可以选择以下平台：
 
 - **Blc-Original**: BiliBili - BliveChat@原版
-- **Blc-Kuma**: BiliBili - BliveChat@KUMA修改版DOM
+- **Blc-Kuma**: BiliBili - BliveChat@KUMA修改版
 - **YouTube**: YouTube Web（暂未开放）
 - **Twitch**: Twitch Web（暂未开放）
 

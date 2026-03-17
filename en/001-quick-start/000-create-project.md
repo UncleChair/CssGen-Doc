@@ -46,7 +46,7 @@ After clicking the create new project button, the new project panel will be open
     - Helps with subsequent management and identification
 - **Platform Selection** (Required)
     - Select the live streaming platform and chat software corresponding to the project
-    - Different platforms have different DOM structures, and after selection, they cannot be changed
+    - Different platforms have different message structures, and after selection, they cannot be changed
 
 ![New Project Panel](./static/new-project-pannel.png)
 
@@ -55,7 +55,7 @@ After clicking the create new project button, the new project panel will be open
 When creating a new project, you can choose the following platforms:
 
 - **Blc-Original**: BiliBili - BliveChat@Original
-- **Blc-Kuma**: BiliBili - BliveChat@KUMA Modified DOM
+- **Blc-Kuma**: BiliBili - BliveChat@KUMA Modified
 - **YouTube**: YouTube Web (Not yet open)
 - **Twitch**: Twitch Web (Not yet open)
 

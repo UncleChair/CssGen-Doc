@@ -32,6 +32,6 @@ CSSGen 始终在开发之中。我们一直致力于改进现有的实现方案�
 ### v0.9.0 (Eternity)
 - 发布时间：Q2 2025
 - 概述
-    - 支持BiliBili BliveChat@原版和BliveChat@KUMA修改版DOM
+    - 支持BiliBili BliveChat@原版和BliveChat@KUMA修改版
     - 完备的高级功能样式组件
     - 基本的基础功能组件

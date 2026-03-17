@@ -46,7 +46,7 @@ CSSGen 编辑器提供了丰富的功能，包括：
 
 CSSGen 编辑器支持包含：
 - BiliBili - BliveChat@原版
-- BiliBili - BliveChat@KUMA修改版DOM
+- BiliBili - BliveChat@KUMA修改版
 - YouTube - YouTube Web (暂未开放)
 - Twitch - Twitch Web (暂未开放)
 

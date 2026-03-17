@@ -32,6 +32,6 @@ The following is the list of features planned to be released in 2026:
 ### v0.9.0 (Eternity)
 - Release Time: Q2 2025
 - Overview
-    - Support BiliBili BliveChat@Original and BliveChat@KUMA Modified DOM
+    - Support BiliBili BliveChat@Original and BliveChat@KUMA Modified
     - Complete advanced feature style components
     - Basic components feature 

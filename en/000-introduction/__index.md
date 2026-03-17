@@ -46,7 +46,7 @@ and more style components, you can freely combine these components to create var
 
 CSSGen Editor supports:
 - BiliBili - BliveChat@Original
-- BiliBili - BliveChat@KUMA Modified DOM
+- BiliBili - BliveChat@KUMA Modified
 - YouTube - YouTube Web (Not yet open)
 - Twitch - Twitch Web (Not yet open)
 
